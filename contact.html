@@ -55,29 +55,36 @@
     </div>
       <div class="contactform">
         <div class="contactformcontainer">
-          <form>
+          <form action="contactform.php" target="_blank" method="POST">
             <div class="contactnames">
-              <div class="contactnamesbox">
-                First Name *<br>
-                  <input type="text" name="firstname" required><br>
-              </div>
-              <div class="contactnamesbox">
-                Last Name *<br>
-                  <input type="text" name="lastname" required><br>
-              </div>
+              <div class="contactnamesbox">First Name *<br><input type="text" name="firstname" required><br></div>
+              <div class="contactnamesbox">Last Name *<br><input type="text" name="lastname" required><br></div>
             </div>
-            E-mail Address *<br>
-              <input type="email" name="email" required id="inputbox"><br>
-            Subject *<br>
-              <input type="text" name="subject" required id="inputbox"><br>
-            Message *<br>
-              <textarea name="message" id="inputbox"></textarea><br>
-            <input type="submit" value="Submit" id="contactsubmit">
-            <input type="reset" id="contactsubmit">
+            E-mail Address *<br><input type="email" name="email" required id="inputbox"><br>
+            Subject *<br><input type="text" name="subject" required id="inputbox"><br>
+            Message *<br><textarea name="message" class="form-control" id="inputbox"></textarea><br>
+            <input type="submit" name="submit" value="Submit" id="contactsubmit">
+            <input type="reset" name="reset" id="contactsubmit">
           </form>
         </div>
       </div>
   </div>
+  <!--SCROLL TO TOP ARROW-->
+  <button id="topBtn"><i class="fas fa-arrow-up"></i></button>
+  <!--FOOTER-->
+  <!--div class="footer">
+    <div class="footercontainer">
+      <div class="footerlinks">
+        <ul>
+          <li><a href="index.html">PHOTOGRAPHY</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="https://www.instagram.com/colettepark/" target="blank_">INSTAGRAM <i class="fab fa-instagram"></i></a></li>
+          <li><a href="mailto:dave@daveada.com">DESIGNED BY: DAVEADA</a></li>
+        <ul>
+      </div>
+    </div>
+  </div-->
 
 
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
